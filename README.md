@@ -2,6 +2,8 @@
 - create react app Folder and file structure using create-react-app 
 - configured tailwind CSS
 - Created remote Github repo
+- Header
+- Login/SignUp Form
 
 
 # Features of MOVIEFLIX-GPT:

@@ -1,9 +1,9 @@
 import React from 'react'
-
+import logo from '../utils/images/MOVIE.png'
 const Header = () => {
   return (
-    <div>
-        <h1 className='font-serif font-bold text-[#ab4444] text-2xl'>MOVIEFLIX-<span className=' text-[#a7a1a1] font-mono'>GPT</span></h1>
+    <div className='bg-gradient-to-b from-black z-50 '>
+        <img className='absolute scale-70 ml-10 z-50 my-4' src={logo} alt="" />
     </div>
   )
 }
