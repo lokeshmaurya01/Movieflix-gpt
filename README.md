@@ -14,6 +14,7 @@
 - Create Sign Up User Account in Firebase
 - Implement Sign in User Api in Firebase
 - Created redux store with userSlice
+- Routing to Browse page after succesfull Sign In and Sign Up(i.e Secured Routing)
 
 # Features of MOVIEFLIX-GPT:
 
