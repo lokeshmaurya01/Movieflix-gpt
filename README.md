@@ -12,6 +12,8 @@
 - Firebase Setup
 - Deploying App to production
 - Create Sign Up User Account in Firebase
+- Implement Sign in User Api in Firebase
+- Created redux store with userSlice
 
 # Features of MOVIEFLIX-GPT:
 
