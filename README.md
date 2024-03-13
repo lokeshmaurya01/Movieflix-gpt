@@ -1,6 +1,6 @@
 ## MOVIEFLIX-GPT
 
-- [Checkout the Website Here](movieflixgpt-935cb-f6b80.web.app)
+- [Checkout the Website Here](https://movieflixgpt-935cb-f6b80.web.app/)
 
 # What's done till now
 
