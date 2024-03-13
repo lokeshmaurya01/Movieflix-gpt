@@ -17,6 +17,7 @@
 - Implement Sign in User Api in Firebase
 - Created redux store with userSlice
 - Routing to Browse page after succesfull Sign In and Sign Up(i.e Secured Routing)
+- Implemented SignOut feature and updateProfile API call to update user every time Signin /Signout occur
 
 # Features of MOVIEFLIX-GPT:
 
