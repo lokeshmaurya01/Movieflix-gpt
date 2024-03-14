@@ -1,6 +1,6 @@
 ## MOVIEFLIX-GPT
 
-- [Checkout the Website Here](https://movieflixgpt-935cb-f6b80.web.app/)
+- (https://movieflixgpt-935cb-f6b80.firebase.web.app/) checkout the link for Live deployment of APP
 
 # What's done till now
 
@@ -18,6 +18,12 @@
 - Created redux store with userSlice
 - Routing to Browse page after succesfull Sign In and Sign Up(i.e Secured Routing)
 - Implemented SignOut feature and updateProfile API call to update user every time Signin /Signout occur
+- Update profile(Name,email,Avatar) So that we can use it when user is logged in
+- Bug Fix:- when user is not logged in and tries to access "/browse" page it redirects him again to "/" or login page and Vice-versa
+- Unsubscribing onAuthStateChanged() callback everytime component will unmount.
+- Added hardcoded values to "constant.js" to make code more readable and maintainable also,to increase reusability.
+- Registered for TMDB API to get ACCES TOKEN
+- GET data from TMDB Movie List's now playing API
 
 # Features of MOVIEFLIX-GPT:
 
