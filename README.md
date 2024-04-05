@@ -22,7 +22,7 @@
 - Bug Fix:- when user is not logged in and tries to access "/browse" page it redirects him again to "/" or login page and Vice-versa
 - Unsubscribing onAuthStateChanged() callback everytime component will unmount.
 - Added hardcoded values to "constant.js" to make code more readable and maintainable also,to increase reusability.
-- Registered for TMDB API to get ACCES TOKEN
+- Registered for TMDB API to get ACCESS TOKEN
 - GET data from TMDB Movie List's now playing API
 
 # Features of MOVIEFLIX-GPT:
