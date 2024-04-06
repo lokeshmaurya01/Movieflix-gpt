@@ -24,6 +24,12 @@
 - Added hardcoded values to "constant.js" to make code more readable and maintainable also,to increase reusability.
 - Registered for TMDB API to get ACCESS TOKEN
 - GET data from TMDB Movie List's now playing API
+- Custom Hook for Now Playing Movies
+- Create Movie-Slice in redux store for movies-list data
+- Updated store Movie data
+- Planning for Main-Conatiner and Secondary Container\
+- Fetch data for Trailer Video , and Update store for Traile data
+- Embedded youtube video trailer of Movie trailer and made it background autoplaying video/Styled it with tailwind
 
 # Features of MOVIEFLIX-GPT:
 
