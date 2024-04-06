@@ -16,20 +16,25 @@
 - Create Sign Up User Account in Firebase
 - Implement Sign in User Api in Firebase
 - Created redux store with userSlice
-- Routing to Browse page after succesfull Sign In and Sign Up(i.e Secured Routing)
-- Implemented SignOut feature and updateProfile API call to update user every time Signin /Signout occur
+- **Routing to Browse page** after succesfull Sign In and Sign Up(i.e Secured Routing)
+- **Implemented SignOut feature** and updateProfile API call to update user every time Signin /Signout occur
 - Update profile(Name,email,Avatar) So that we can use it when user is logged in
 - Bug Fix:- when user is not logged in and tries to access "/browse" page it redirects him again to "/" or login page and Vice-versa
-- Unsubscribing onAuthStateChanged() callback everytime component will unmount.
-- Added hardcoded values to "constant.js" to make code more readable and maintainable also,to increase reusability.
+- **_Unsubscribing onAuthStateChanged() callback_** everytime component will unmount.
+- **_Added hardcoded values to "constant.js"_** to make code more readable and maintainable also,to increase reusability.
 - Registered for TMDB API to get ACCESS TOKEN
 - GET data from TMDB Movie List's now playing API
 - Custom Hook for Now Playing Movies
-- Create Movie-Slice in redux store for movies-list data
+- Create **_Movie-Slice in redux store for movies-list data_**
 - Updated store Movie data
-- Planning for Main-Conatiner and Secondary Container\
+- Planning for Main-Container and Secondary Container\
 - Fetch data for Trailer Video , and Update store for Traile data
 - Embedded youtube video trailer of Movie trailer and made it background autoplaying video/Styled it with tailwind
+- **Main Container Done**
+- Made the Scrollable,styled (**using tailwind CSS**) movie list for Popular,Upcoming ,top rated and Now Playing movies after fetching it from TMDP API's
+- Made **_Custom hooks for each fetching of different type of list's_** movie data
+- added the list's movie data to movies-slice (**Redux Store Slice**)
+-
 
 # Features of MOVIEFLIX-GPT:
 
