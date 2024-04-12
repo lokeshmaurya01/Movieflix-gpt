@@ -34,8 +34,9 @@
 - Made the Scrollable,styled (**using tailwind CSS**) movie list for Popular,Upcoming ,top rated and Now Playing movies after fetching it from TMDP API's
 - Made **_Custom hooks for each fetching of different type of list's_** movie data
 - added the list's movie data to movies-slice (**Redux Store Slice**)
-- Added **GPT-search button** in header,when user clicks on it it lands the user to a _GPT-Powered Movie Recommendation_ search page
+- Added **GPT-search button** in header,when user clicks on it it lands the user to a _GPT-Powered Movie Recommendation_ search page(Consists of GPTSearch bar and Search Button to search the prompt given )
 - Created a GptSearchView state variable(Redux Store) keeps tracks whether user has clicked or not on search bar .Respectively changing View of user
+- Miltilingual function in GPT search function
 
 # Features of MOVIEFLIX-GPT:
 

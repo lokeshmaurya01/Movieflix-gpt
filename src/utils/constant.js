@@ -11,3 +11,13 @@ export const API_OPTIONS = {
   },
 };
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w780";
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", language: "English" },
+  { identifier: "hindi", language: "Hindi" },
+  { identifier: "spanish", language: "Spanish" },
+];
+
+export const OPENAI_KEY_1 =
+  "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";
+export const OPENAI_KEY_2 =
+  "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";

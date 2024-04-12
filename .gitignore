@@ -14,7 +14,7 @@
 /build
 
 # API_KEYS
-/src/utils/constant.js
+
 
 # misc
 .DS_Store
@@ -26,3 +26,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+src/utils/constant.js
