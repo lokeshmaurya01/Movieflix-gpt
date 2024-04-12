@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Header from "./Header";
 import { useDispatch } from "react-redux";
-import { API_OPTIONS } from "../utils/constant.js";
+import { API_OPTIONS } from "../utils/constantFile.js";
 import { addNowPlayingMovies } from "../utils/movieSlice";
 import useNowPlayingMovies from "../hooks/useNowPlayingMovies";
 import MainContainer from "./MainContainer";

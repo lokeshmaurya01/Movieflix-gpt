@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { API_OPTIONS } from "../utils/constant";
+import { API_OPTIONS } from "../utils/constantFile.js";
 import { useDispatch } from "react-redux";
 import { addTrailerVideo } from "../utils/movieSlice";
 const useMovieTrailer = (movieId) => {
