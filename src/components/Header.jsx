@@ -61,14 +61,18 @@ const Header = () => {
   };
   const selectedLang = useSelector((store) => store.config.lang);
   return (
-    <div className="absolute w-99vw overscroll-none p-2 bg-gradient-to-b from-black z-10 flex justify-between  ">
-      <img className="scale-70 ml-4  my-2" src={logo} alt="" />
+    <div className="absolute w-99vw overscroll-none p-2 bg-gradient-to-b from-black z-10 flex flex-col md:flex-row justify-between ">
+      <img
+        className="scale-50 md:scale-100 my-1 mx-auto  md:mx-0"
+        src={logo}
+        alt=""
+      />
 
       {user && (
-        <div className="flex mr-8  ">
+        <div className="flex mr-8 justify-between  ">
           {toggleLangOption && (
             <select
-              className="p-2 bg-gray-500 text-white my-auto rounded-md"
+              className="p-2 bg-gray-500 text-white mx-3 my-auto rounded-md"
               onChange={handleLanguageChange}
             >
               {SUPPORTED_LANGUAGES.map((lang) => (
@@ -79,19 +83,23 @@ const Header = () => {
             </select>
           )}
           <button
-            className="text-white py-3 px-4 my-auto mx-3 bg-purple-600 rounded-xl"
+            className="text-white py-2 px-4 my-auto mx-3 ml-6 md:ml-4 bg-purple-600 rounded-xl"
             onClick={handleGptSearchClick}
           >
             {showGptSearch ? "HomePage" : "GPT-search"}
           </button>
-          <div className="bg-red-600 w-12 h-12 mt-4 rounded-3xl shadow-black shadow-sm">
-            <img className="rounded-3xl" src={user.photoURL} alt="SignIn" />
+          <div className="hidden md:block bg-red-600 w-12 h-12 mt-4 rounded-3xl shadow-black shadow-sm">
+            <img
+              className=" hidden md:block rounded-3xl"
+              src={user.photoURL}
+              alt="SignIn"
+            />
           </div>
           <button
             onClick={handleSignOut}
-            className="ml-4 font-bold  text-white"
+            className="text-white py-2 px-4 my-auto mx-0 md:mx-3 bg-gray-600 rounded-xl"
           >
-            SignOut
+            Sign Out
           </button>
         </div>
       )}

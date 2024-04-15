@@ -95,13 +95,13 @@ const Login = () => {
       <Header />
       <div className="absolute">
         <img
-          className="w-screen object-contain"
+          className="md:w-screen h-screen object-cover"
           src={BG_IMAGE}
           alt="grid of movies"
         />
       </div>
       <form
-        className="w-3/12 p-12 absolute bg-[#1d2436] my-36 mx-auto left-0 right-0 text-white rounded-md bg-opacity-80"
+        className=" w-full md:w-3/12 p-12 absolute bg-[#1d2436] my-36 mx-auto left-0 right-0 text-white rounded-md bg-opacity-80"
         action=""
         onSubmit={(e) => e.preventDefault()}
       >

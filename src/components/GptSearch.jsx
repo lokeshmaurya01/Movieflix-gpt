@@ -6,15 +6,21 @@ import backGround2 from "../utils/images/background.png";
 
 const GptSearch = () => {
   return (
-    <div>
+    <>
       <div className="fixed -z-10">
-        <img src={backGround2} alt="background image" />
+        <img
+          className="h-screen object-cover md:w-screen "
+          src={backGround2}
+          alt="background image"
+        />
       </div>
-      {/* gptSearchBar 
+      <div className="">
+        {/* gptSearchBar 
     Gpt Suggestions on thge basis of search*/}
-      <GptSearchBar />
-      <GptMovieSuggestion />
-    </div>
+        <GptSearchBar />
+        <GptMovieSuggestion />
+      </div>
+    </>
   );
 };
 

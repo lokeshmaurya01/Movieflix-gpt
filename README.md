@@ -37,6 +37,14 @@
 - Added **GPT-search button** in header,when user clicks on it it lands the user to a _GPT-Powered Movie Recommendation_ search page(Consists of GPTSearch bar and Search Button to search the prompt given )
 - Created a GptSearchView state variable(Redux Store) keeps tracks whether user has clicked or not on search bar .Respectively changing View of user
 - Miltilingual function in GPT search function
+- Got **_OpenAI API Key_**
+- **GPT search API call**
+- Fetched **_GPT movie suggestions from TMDB_**
+- Created GPT Slice and added data over there
+- **_Reused MovieList Component_** to show the GPT suggetsed movies
+- Memoization
+- Adding .env file
+- Made the Website Responsive by adding Media Queries
 
 # Features of MOVIEFLIX-GPT:
 
