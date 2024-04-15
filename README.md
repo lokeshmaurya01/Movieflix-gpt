@@ -1,6 +1,6 @@
 ## MOVIEFLIX-GPT
 
-- (muviflix.netlify.app/) checkout the link for Live deployment of APP
+- (https://muviflix.netlify.app/) checkout the link for Live deployment of APP
 
 # What's done till now
 
