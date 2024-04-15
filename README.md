@@ -1,6 +1,6 @@
 ## MOVIEFLIX-GPT
 
-- (https://movieflixgpt-935cb-f6b80.firebase.web.app/) checkout the link for Live deployment of APP
+- (muviflix.netlify.app/) checkout the link for Live deployment of APP
 
 # What's done till now
 
