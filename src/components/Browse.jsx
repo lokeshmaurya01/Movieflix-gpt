@@ -1,8 +1,4 @@
-import React, { useEffect } from "react";
 import Header from "./Header";
-import { useDispatch } from "react-redux";
-import { API_OPTIONS } from "../utils/constantFile.js";
-import { addNowPlayingMovies } from "../utils/movieSlice";
 import useNowPlayingMovies from "../hooks/useNowPlayingMovies";
 import MainContainer from "./MainContainer";
 import SecondaryContainer from "./SecondaryContainer";
@@ -11,9 +7,12 @@ import useTopRatedMovies from "../hooks/useTopRatedMovies";
 import useUpcomingMovies from "../hooks/useUpcomingMovies";
 import GptSearch from "./GptSearch";
 import { useSelector } from "react-redux";
+import { useEffect, useState } from "react";
+import DummyCard from "./Shimmer/DummyCard";
 const Browse = () => {
   //Fetch data from TMDB API and update the store
   const showGptSearch = useSelector((store) => store.gpt.showGptSearch);
+
   useNowPlayingMovies();
   usePopularMovies();
   useTopRatedMovies();
