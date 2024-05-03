@@ -5,7 +5,6 @@ import Loader from "../Shimmer/Loader";
 import Header from "../Header";
 import MovieInfoContainer from "./MovieInfoContainer";
 import { BANNER_IMG_CDN_URL } from "../../utils/constantFile";
-import MovieCast from "./MovieCast";
 
 const MovieInfo = () => {
   const { id } = useParams();
