@@ -45,6 +45,8 @@
 - Memoization
 - Adding .env file
 - Made the Website Responsive by adding Media Queries
+- Movie Info page
+- Shimmer UI effect while Loading Data
 
 # Features of MOVIEFLIX-GPT:
 
